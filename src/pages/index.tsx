@@ -40,7 +40,7 @@ export default function Home({ products }: HomeProps) {
   return (
     
     <HomeContainer ref={sliderRef} className="keen-slider">
-      {/* <pre>{JSON.stringify(products)}</pre> */}
+      
     
       {products.map(product => {
         return (
